@@ -1,0 +1,26 @@
+/* Formatações Gerais de ELEMENTOS */
+
+/* Formatações Gerais de CLASSES */
+.hidden-accessibility-text {
+    width: 0;
+    height: 0;
+    overflow: hidden;
+}
+
+/* Formatações da Página [Top to Bottom] */
+/* Header Superior */
+.header--top {
+    background-color: #c2baa1;
+    padding: 1em;
+
+    text-align: center;
+}
+
+/* Formulário Centralizado */
+.form--center {
+    background-color: #eee;
+    width: 65%;
+
+    margin: 5em auto;
+    padding: 1em;
+}

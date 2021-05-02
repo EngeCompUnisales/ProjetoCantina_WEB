@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Conta</title>
+
+    <link rel="stylesheet" href="../css-default/normalize.css">
+    <link rel="stylesheet" href="css/cadastroStyle.css">
+</head>
+<body>
+    <header class="header--top">
+        <img src="img/logo.svg" alt="Logo da Unisales">
+    </header>
+
+    <form class="form--center">
+        <fieldset class="form__basic-informations">
+            <legend class="hidden-accessibility-text">Cadastro de Usuário</legend>
+            
+            <label for="nome">Nome completo</label>
+            <input type="text" id="nome" placeholder="Ex.: Fulano de Oliveira" autofocus>
+
+            <label for="numeroDaMatricula">Número da matrícula</label>
+            <input type="number" id="numeroDaMatricula" placeholder="Ex.: 6919100000">
+
+            <label for="senha">Senha</label>
+            <input type="password" id="senha" placeholder="Senha">
+            <label for="confirmarSenha">Confirme sua senha</label>
+            <input type="password" id="confirmarSenha" placeholder="Confirmar Senha">
+
+            <label for="email">E-mail</label>
+            <input type="email" id="email" placeholder="Ex.: cantina@hotmail.com">
+        </fieldset>
+
+        <fieldset class="form__you-are">
+            <legend class="hidden-accessibility-text">Tipo de Cliente</legend>
+
+            <p>Você é:</p>
+            <label for="aluno">
+                <input type="radio" name="categoriaDoCliente" id="aluno" value="aluno" checked>
+                Aluno
+            </label>
+            <label for="professor">
+                <input type="radio" name="categoriaDoCliente" id="professor" value="professor">
+                Professor
+            </label>
+            <label for="visitante">
+                <input type="radio" name="categoriaDoCliente" id="visitante" value="visitante">
+                Visitante
+            </label>
+            <label for="admin">
+                <input type="radio" name="categoriaDoCliente" id="admin" value="admin">
+                Administrador
+            </label>
+        </fieldset>
+
+        <input class="form__submit" type="submit" value="Cadastrar">
+    </form>
+</body>
+</html>

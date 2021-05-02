@@ -9,6 +9,12 @@ body {
     color: black;
 }
 
+.clear-float::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
 /* Formatações da Página [Top to Bottom] */
 /* Header Superior */
 .header__ul--lines {
@@ -42,3 +48,51 @@ body {
             width: 10em;
             height: 10em;
         }
+
+/* Footer Inferior */
+.footer {
+    background-color: #ddd;
+    padding: 1em;
+}
+
+    /* Div Superior (Endereço, Formas de Pagamento) */
+    .footer address {
+        width: 50%;
+
+        float: left;
+    }
+
+    .footer__div--right {
+        width: 50%;
+
+        float: right;
+
+        text-align: right;
+    }
+
+        .footer__ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+            .footer__ul img {
+                width: 50%;
+            }
+
+    /* Páginas da Unisales */
+    .footer__nav--bottom ul {
+        list-style: none;
+        padding-left: 0;
+    }
+
+        .footer__nav__li--unisales {
+            display: inline-block;
+        }
+
+        .footer__nav__li--right {
+            float: right;
+        }
+
+            .footer__nav__li--right:not(:first-child) {
+                margin-left: 1.5em;
+            }
