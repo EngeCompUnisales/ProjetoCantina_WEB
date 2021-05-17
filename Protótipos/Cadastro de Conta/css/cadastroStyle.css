@@ -11,7 +11,7 @@
 /* Formatações da Página [Top to Bottom] */
 /* Header Superior */
 .header-top {
-    background-color: #c2baa1;
+    background-color: #151C48;
     padding: 1em;
 
     text-align: center;
@@ -23,6 +23,8 @@
     width: 50%;
 
     margin: 5em auto;
+    border: 3px solid #DEB63D;
+    border-radius: 10px;
     padding: 1em;
 }
 
@@ -52,6 +54,7 @@
 
             margin-bottom: 0.75em;
             padding: 0.5em;
+            outline-color: #E30613;
         }
 
             .form__basic-informations label:last-child {

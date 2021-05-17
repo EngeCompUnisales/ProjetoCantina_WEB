@@ -1,4 +1,7 @@
 /* Formatações Gerais de ELEMENTOS */
+body {
+    background-color: #151C48;
+}
 
 /* Formatações Gerais de CLASSES */
 .a--no-default-style {
@@ -9,6 +12,7 @@
 /* Formatações da Página [Top to Bottom] */
 /* Todo o conteúdo menos o footer */
 main {
+    background-color: white;
     margin-top: 25vh;
     padding: 1em;
     
@@ -21,8 +25,11 @@ main {
     padding-left: 0;
 }
 
+    .ul-basic-links a {
+        background-color: #DEB63D;
+    }
+
     .ul__item-menu a {
-        background-color: #ddd;
         display: inline-block;
 
         padding: 1em 2em;
@@ -39,7 +46,6 @@ main {
     }
 
         .ul__item-accounts a {
-            background-color: #ddd;
             display: inline-block;
 
             padding: 1em 2em;
@@ -59,6 +65,8 @@ main {
     bottom: 1em;
 
     text-align: center;
+
+    color: #EBE4D1;
 }
 
     .footer-employee img {

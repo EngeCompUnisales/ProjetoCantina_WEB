@@ -1,0 +1,19 @@
+/* Formatações Gerais de ELEMENTOS */
+body {
+    background-color: #151C48;
+
+    color: white;
+}
+
+/* Formatações Gerais de CLASSES */
+.hidden-accessibility-text {
+    
+}
+
+/* Formatações da Página [Top to Bottom] */
+.form-login {
+    background-color: #777;
+    width: 60%;
+
+    margin: 10em auto;
+}
